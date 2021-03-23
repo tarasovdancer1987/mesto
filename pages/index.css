@@ -22,7 +22,7 @@
 @import url(../blocks/element/__like-button/_active/element__like-button_active.css);
 @import url(../blocks/element/__like-button/_inactive/element__like-button_inactive.css);
 @import url(../blocks/element/__like-button/_visible/element__like-button_visible.css);
-@import url(../blocks/title-wrapper/title-wrapper.css);
+@import url(../blocks/element/__title-wrapper/element__title-wrapper.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/popup/popup.css);
