@@ -5,8 +5,8 @@ let oldInformation = document.querySelector('.popup-form__input_id_information')
 let popup = document.querySelector('.popup');
 function openPopup() {
     popup.classList.add('popup_visible');
-    oldInformation.textContent = information.textContent;
-    oldName.textContent = surname.textContent;
+    oldInformation.value = information.textContent;
+    oldName.value = surname.textContent;
 }
 let edit = document.querySelector('.profile__edit-button');
 edit.addEventListener('click', openPopup);

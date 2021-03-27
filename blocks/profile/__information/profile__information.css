@@ -10,6 +10,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 614px) {
@@ -17,5 +18,6 @@
         text-align: center;
         font-size: 14px;
         line-height: 19px;
+        max-width: 254px;
     }
 }

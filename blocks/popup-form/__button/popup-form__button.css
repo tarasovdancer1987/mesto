@@ -1,6 +1,5 @@
 .popup-form__button {
     background-color: #000000;
-    /*border-radius: 2px;*/
     width: 358px;
     height: 50px;
     font-family: inherit;
@@ -13,6 +12,7 @@
     margin: 0px auto;
     cursor: pointer;
     padding: 0px;
+    margin-bottom: 37px;
 }
 
 .popup-form__button:hover {
@@ -31,5 +31,6 @@
         height: 46px;
         font-size: 14px;
         line-height: 17px;
+        margin-bottom: 25px;
     }
 }

@@ -9,11 +9,13 @@
     padding: 0px;
     box-sizing: border-box;
     max-height: 23px;
+    padding-top: 34px;
 }
 
 @media screen and (max-width: 899px) {
     .popup__title {
         margin: 0px 0px 64px 22px;
+        padding-top: 30px;
     }
 }
 
@@ -21,5 +23,6 @@
     .popup__title {
         font-size: 18px;
         margin: 0px 0px 75px 22px;
+        padding-top: 25px;
     }
 }
