@@ -1,26 +1,30 @@
 .profile {
-    width: calc(100%*880/1024);
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 120px auto 150px;
     max-width: 880px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
+    margin: 0px auto;
+    padding-bottom: 51px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    justify-items: flex-start;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 39.25px;
+    gap: 0px 30px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 899px) {
     .profile {
-        width: calc(100%*282/320);
-        max-width: 320px;
-        flex-direction: column;
-        margin-bottom: 36px;
-        margin-top: 42.25px;
+        max-width: 581px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 614px) {
     .profile {
+        max-width: 282px;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 36px;
     }
 }
